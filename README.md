@@ -115,7 +115,7 @@ This project automates the deployment of a **Flask ToDo Application** containeri
 ---
 
 ### 5) Diagram
-<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/6bd7ab21-8f43-46f9-8f39-ed0fc2a54572" />
+<img width="1000" height="800" alt="Image" src="https://github.com/user-attachments/assets/6bd7ab21-8f43-46f9-8f39-ed0fc2a54572" />
 
 ---
 
