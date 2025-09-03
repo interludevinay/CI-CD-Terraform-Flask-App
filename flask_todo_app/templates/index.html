@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>All Tasks</h2>
+  <ul>
+    {% for task in tasks %}
+      <li>
+        <strong>{{ task.title }}</strong> - {{ task.content }}
+        <a href="{{ url_for('edit', id=task.id) }}">Edit</a>
+        <a href="{{ url_for('delete', id=task.id) }}" onclick="return confirm('Delete this task?')">Delete</a>
+      </li>
+    {% else %}
+      <p>No tasks yet!</p>
+    {% endfor %}
+  </ul>
+{% endblock %}
